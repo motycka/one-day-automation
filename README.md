@@ -1,6 +1,14 @@
 # One Day Automation
 
-## Struktura PO
+## Installation
+
+`npm install`
+
+## Run
+
+`npx wdio`
+
+## Structure
 
 - **Application**
   - **navBar**
