@@ -1,0 +1,22 @@
+{
+    "name": "one-day-automation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \\\"Error: no tests specified\\\" && exit 1",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "^7.23.0",
+        "@wdio/local-runner": "^7.23.0",
+        "@wdio/mocha-framework": "^7.23.0",
+        "@wdio/spec-reporter": "^7.23.0",
+        "chromedriver": "^104.0.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-edgedriver-service": "^1.2.0",
+        "wdio-geckodriver-service": "^3.0.3"
+    }
+}
